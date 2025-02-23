@@ -5,7 +5,12 @@ Este proyecto usa Azure AI Cognitive Services junto a Python.
 ## Próposito del proyecto
 
 Aplicación que conecta con los servicios de Azure para realizar traducciones de texto mediante Inteligencia Artificial, utiliza también el servicio speech que permite pasar este texto a voz.
-
+- tools.languages: lista de idiomas disponibles.
+- requirements: dependencias a instalar.
+- speech_app: lee la traducción usando una de las voces permitidas.
+- speech_to_text: reconoce un texto mediante la voz del usuario, es decir, convierte voz a texto.
+- translator_app: traduce los textos de un idioma de origen a uno de destino.
+- main: menú de selección para usar todas las funcionalidades previamente creadas.
 ## Tecnologías
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
